@@ -20,6 +20,7 @@ services:
       - OPENAI_API_KEY
       - ANTHROPIC_API_KEY
       - GROQ_API_KEY
+      -GEMINI_API_KEY=AIzaSyC4ttW8vaZPhTUOiV9vVm0uwMqRwyzy2HA
     env_file:
       - .env
 
